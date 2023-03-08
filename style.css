@@ -1,0 +1,543 @@
+body{
+    margin: 0;
+    height: 3084px;
+
+}
+.h .h1 img{
+    width: 45px;
+    margin: 20px 100px;
+}
+.h {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    flex: 1;
+}
+.h1{
+    background-color:#fff;
+}
+.h2{
+    background-color: #fff;
+    display: flex;
+    flex: 4;
+    justify-content: center;  
+    justify-content: space-evenly;
+}
+.h3{
+    background-color: #fff;
+    display: flex;
+    flex: 1;
+}
+.h2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+ 
+}
+.h2 ul li{
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 20px;
+   padding-right: 75px;
+  
+}
+.h2 ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: crimson;
+}
+.underheader{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    font-family:  neuzeit-grotesk,Helvetica;
+    font-weight: bold; 
+    
+}
+.underheader a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+   
+   
+}
+.underheader a:hover{
+    text-decoration: underline;
+}
+.video{
+    width: 100%;
+    height: 824px;
+    background-color: #fff;
+    position: relative;
+}
+.video video{
+    width: 100%;
+}
+.video .overlay .p1 {
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    font-size: 70px;
+    font-family:  Helvetica;
+    font-weight: bolder; 
+    color: #fff;
+}
+.video,.video.overlay{
+    position: relative;
+}
+.video .overlay .p2{
+    position: absolute;
+  top: 625px;
+    left: 55px;
+    font-size: 25px;
+    font-family:  Helvetica;
+    font-weight: bolder; 
+    color: #fff;
+}
+.video .first-btn button{
+position: absolute;
+color: black;
+font-family: 'Bebas Neue', cursive;
+font-size: 18px;
+background: white;
+width: 120px;
+height: 45px;
+border-radius: 25px;
+top: 720px;
+left: 55px;
+border-color: transparent;
+}
+.video .first-btn button:hover{
+    background-color: crimson;
+    border-color: #fff;
+
+}
+
+.video .secnd-btn button{
+    position: absolute;
+    color:#fff;
+    background:transparent;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    width: 150px;
+    height: 45px;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 25px;
+    left: 200px;
+    top: 720px;
+    }
+
+    .video .secnd-btn button:hover{
+        cursor: pointer;
+        background-color: crimson;
+        
+    
+    }
+
+.banner-valentine{
+    width: 100%;
+    height: 152px;
+    position: relative;
+    background-color: #f1f1f1;
+}
+.banner-valentine p{
+    color: black;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top: 72px;
+}
+.container1{
+    width: 100%;
+    height: 689px;
+    position: relative;
+    
+}
+.container1 .inner-container1{
+    width: 100%;
+    height: 547.2px;
+background-color: #f1f1f1;
+    position: relative;
+    display: flex;
+   
+    
+}
+.container1 .inner-container1 .box1{
+    width: 400px;
+    height: 502px;
+    background-color:#fff;
+    position: relative;
+    border-radius: 25px;
+    top: 30px;
+    margin-left: 140px;
+    transition:.5s;
+    
+}
+.container1 .inner-container1 .box1:hover{
+    transform: scale(1.05);
+
+}
+
+
+.container1 .inner-container1 .box1 p{
+    margin-left: 100px;
+  padding-top: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+.container1 .inner-container1 .box1 img{
+    width: 290px;
+    height: 290px;
+    margin-left: 75px;
+}
+.container1 .inner-container1 .box2{
+    width: 400px;
+    height: 502px;
+    background-color:#fff;
+    position: relative;
+    border-radius: 25px;
+    top: 30px;
+    margin-left: 25px;
+    transition:.5s;
+
+}
+.container1 .inner-container1 .box2:hover{
+    transform: scale(1.05);
+
+}
+.container1 .inner-container1 .box2 p{
+    margin-left: 100px;
+    padding-top: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+  
+  }
+  .container1 .inner-container1 .box2 img{
+    width: 290px;
+    height: 290px;
+    margin-left: 75px;
+}
+.container1 .inner-container1 .box3{
+    width: 400px;
+    height: 502px;
+    background-color:#fff;
+    position: relative;
+    border-radius: 25px;
+    top: 30px;
+    margin-left: 25px;
+    
+    transition:.5s;
+
+}
+.container1 .inner-container1 .box3:hover{
+    transform: scale(1.05);
+
+}
+.container1 .inner-container1 .box3 p{
+    margin-left: 100px;
+    padding-top: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+  
+  }
+  .container1 .inner-container1 .box3 img{
+    width: 240px;
+    height: 300px;
+    margin-left: 75px;
+}
+.under-container1{
+    width: 100%;
+    height: 141px;
+    background-color: #f1f1f1;
+
+}
+.under-container1 button:hover{
+   cursor: pointer;
+    background-color:crimson;
+
+}
+.under-container1 button{
+    width: 182px;
+    height: 46px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    position: relative;
+    left: 675px;
+    top: 45px;
+    border: none;
+}
+.container2{
+    height: 468.6px;
+    width: 100%;
+    background-color:#fff;
+    position: relative;
+}
+.container2 .container2-heading{
+    width: 100%;
+    background-color:#fff;
+    color: black;
+    font-size:26px ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
+/*container2*/
+.container2 .container2-box{
+    width: 1170px;
+    height: 238px;
+    background-color:#fff;
+    position: relative;
+    display: flex;
+    left: 165px;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+/*container2 box1*/
+.container2 .container2-box .container2-box1{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  
+}
+.container2 .container2-box .container2-box1 img{
+    background-color:white;
+    width: 68px;
+    height: 72px;
+}
+.container2 .container2-box .container2-box1 a{
+    color: #000;
+    text-decoration: none;
+    padding-top: 15px;
+    position: relative;
+    top: 25px;
+   font-weight: bold;
+   font-size: 18px;
+}
+/*container2 box2*/
+.container2 .container2-box .container2-box2{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-align: center;
+}
+.container2 .container2-box .container2-box2 img{
+    background-color:white;
+    width: 68px;
+    height: 72px;
+}
+.container2 .container2-box .container2-box2 a{
+    color: #000;
+    text-decoration: none;
+    padding-top: 15px;
+    position: relative;
+    top: 25px;
+   font-weight: bold;
+   font-size: 18px;
+}
+/*container2 box3*/
+.container2 .container2-box .container2-box3{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-align: center;
+}
+.container2 .container2-box .container2-box3 img{
+    background-color:white;
+    width: 76px;
+    height: 72px;
+}
+.container2 .container2-box .container2-box3 a{
+    color: #000;
+    text-decoration: none;
+    padding-top: 15px;
+    position: relative;
+    top: 25px;
+   font-weight: bold;
+   font-size: 18px;
+}
+.container2 .container2-box .container2-box3 a:hover{
+  text-decoration: underline;
+  text-decoration-color: crimson;
+}
+.container2 .container2-box .container2-box2 a:hover{
+  text-decoration: underline;
+  text-decoration-color: crimson;
+}
+.container2 .container2-box .container2-box1 a:hover{
+   text-decoration: underline;
+   text-decoration-color: crimson;
+}
+
+.container3{
+    width: 100%;
+    position: relative;
+    height: 781.2px;
+    background-color: #fff;
+}
+.container3 img{
+   width: 100%;
+   height: 781px;
+   position: absolute;
+}
+.container3 .overlay .p1{
+    font-size: 70px;
+    position: absolute;
+    top: 380px;
+    left: 50px;
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Noto Sans', sans-serif;
+}
+.container3 .overlay .p2{
+    position: absolute;
+    top: 520px;
+    left: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+.container3 .overlay .p3{
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container3 .first-btn button{
+    position: absolute;
+    color: black;
+    background-color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    top: 670px;
+    left: 50px;
+
+}
+.container3 .first-btn button:hover{
+cursor: pointer;
+background-color:crimson;
+border-style: solid;
+border-color: #fff;
+}
+.container3 .secnd-btn button{
+    position: absolute;
+    color:#fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    background:transparent;
+    width: 150px;
+    height: 45px;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 25px;
+    top: 670px;
+    left: 230px;
+}
+.container3 .secnd-btn button:hover{
+    cursor: pointer;
+    background-color:black;
+    border-style: solid;
+    border-color: #fff;
+    }
+
+/*footer*/
+
+.footer{
+    width: 100%;
+    height: 625px;
+    background-color:#fff;
+    position: relative;
+}
+.footer .table-container .footer-logo img{
+    width: 45px;
+}
+.table-container{
+    width: 1320px;
+    height: 406px;
+    background-color: #fff;
+   position: relative;
+   top: 130px;
+   left: 100px;
+   display: flex;
+}
+.footer-logo{
+    width: 330px;
+    height: 406px;
+    background-color: #fff;
+}
+.list1 ul li,.list2 ul li,.list3 ul li,.list4 ul li{
+    font-size: 18px;
+    color: #757575;
+    list-style: none;
+    padding-top: 13px;
+    position: relative;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.list2,.list3,.list4{
+    padding-left: 75px;
+}
+.copyright{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color:#fff;
+    position: relative;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+}
+.list1 #list1-items:hover{
+    cursor: pointer;
+    color:crimson;
+    text-decoration: underline; 
+}
+.list2 #list2-items:hover{
+    cursor: pointer;
+    color:crimson;
+    text-decoration: underline; 
+}
+.list3 #list3-items:hover{
+    cursor: pointer;
+    color:crimson;
+    text-decoration: underline; 
+}
+.list4 #list4-items:hover{
+    cursor: pointer;
+    color:crimson;
+    text-decoration: underline; 
+}
+.list4 .fa-brands{
+    color: #757575;
+}
+.list4 .fa-brands:hover{
+    cursor: pointer;
+    color: black;
+}
+
+
